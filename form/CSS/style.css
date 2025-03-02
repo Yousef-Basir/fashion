@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#form {
+    margin: 0 auto;
+    padding: 20px;
+    width: 440px;
+    height: 745px;
+    background: #b0c346;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+}
+
+#form h3 {
+    color: #49530e;
+    margin-bottom: 10px;
+}
+
+#form .common {
+    width: 400px;
+    height: 43px;
+    background-color: #c8d384;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 7px;
+    margin-top: 2px;
+}
+
+.a {
+    display: inline-block;
+    width: 85px;
+    font-weight: 500;
+}
+
+.common input {
+    width: 210px;
+    margin-left: 40px;
+    padding-left: 5px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    height: 25px;
+    color: silver;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic
+    
+}
+
+#main,
+#footer {
+    margin-top: 10px;
+}
+
+#one {
+    width: 400px;
+    height: 112px;
+    background-color: #c8d384;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 7px;
+    margin-top: 2px;
+}
+
+#one textarea {
+    width: 210px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 4px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+#one h4 {
+    padding-top: 5px;
+}
+
+#two {
+    width: 400px;
+    height: 75px;
+    background-color: #c8d384;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#down {
+    width: 85px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+#two img {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    vertical-align: bottom;
+}
+
+label {
+    margin-left: 15px;
+}
+
+#click {
+    width: 120px;
+    height: 35px;
+    background-color: #4a5221;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 160px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <div id="form">
+        <form action="#">
+            <h3>Step 1: Your details</h3>
+            <div class="common">
+                <h4 class="a">Name</h4><input type="text" name="name" value="First and last name">
+            </div>
+            <div class="common">
+                <h4 class="a">Email</h4><input type="email" name="email" value="example@domain.com">
+            </div>
+            <div class="common">
+                <h4 class="a">Phone</h4><input type="text" name="text" value="Eg. +447500000000">
+            </div>
+            <h3 id="main">Step 2: Delivery address</h3>
+            <div id="one">
+                <h4 class="a">Address</h4><textarea name="address" cols="24" rows="5"></textarea>
+            </div>
+            <div class="common">
+                <h4 class="a">Post code</h4><input type="text">
+            </div>
+            <div class="common">
+                <h4 class="a">Country</h4><input type="text">
+            </div>
+            <h3 id="footer">Step 3: Card details</h3>
+            <div id="two">
+                <h4 id="down">Card type</h4>
+
+                <label><input type="radio" name="Card type" value="VISA">
+                    <img src="./images/visa.jpg" alt="visa">
+                    VISA</label>
+                <label><input type="radio" name="Card type" value="AmEx">
+                    <img src="./images/amex.jpg" alt="AmEx">
+                    AmEx</label>
+                <label><input type="radio" name="Card type" value="Mastercard">
+                    <img src="./images/master.jpg" alt="Mastercard">
+                    Mastercard</label>
+            </div>
+            <div class="common">
+                <h4 class="a">Card number</h4><input type="text">
+            </div>
+            <div class="common">
+                <h4 class="a">Security code</h4><input type="text">
+            </div>
+            <div class="common">
+                <h4 class="a">Name on card</h4><input type="text" name="Name on card" value="Exact name as on the card">
+            </div>
+            <input id="click" type="submit" value="BUY IT!">
+        </form>
+    </div>
+</body>
+
+</html>
